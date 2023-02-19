@@ -68,15 +68,11 @@ import {
 
 import { Home as HomeView } from './views/pages';
 
-interface MatchPropsType {
-  [x: string]: any;
-}
-
 const Routes = () => {
   return (
     <ReactRoutes>
       <Route
-        path="/"
+        path="/home"
         element={
           <WithLayout
             component={HomeView}
