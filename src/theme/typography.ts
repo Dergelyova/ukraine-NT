@@ -27,7 +27,7 @@ export const TYPOGRAPHY: TypographyOptions = {
   h3: {
     fontFamily: 'Gilroy-Light',
     fontWeight: 700,
-    fontSize: '26px',
+    fontSize: '35px',
   },
   h4: {
     fontFamily: 'MacPawFixelDisplaySemiBold',

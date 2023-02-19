@@ -3,6 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import { Container } from '../../../common';
 import { Hero } from './components';
+import LatestNews from './components/LatestNews';
 
 const Home = () => {
   const theme = useTheme();
@@ -12,6 +13,11 @@ const Home = () => {
         <Container position="relative" zIndex={2}>
           <Hero />
         </Container>
+        <Box bgcolor={theme.palette.background.default} position={'relative'}>
+          <Container position="relative" zIndex={2}>
+            <LatestNews />
+          </Container>
+        </Box>
       </Box>
       {/* <Container>
         <Highlights />

@@ -12,7 +12,7 @@ export const Container: FC<Props> = ({ children, ...rest }) => (
     width={'100%'}
     margin={'0 auto'}
     paddingX={2}
-    paddingY={{ xs: 4, sm: 6, md: 8 }}
+    paddingY={{ xs: 4, sm: 6, md: 6 }}
     {...rest}
   >
     {children}

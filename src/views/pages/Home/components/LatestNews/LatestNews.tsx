@@ -6,10 +6,10 @@ import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
 import CardMedia from '@mui/material/CardMedia';
+import { CustomLink } from 'common';
 
-const Main = () => {
+const LatestNews = () => {
   const theme = useTheme();
 
   return (
@@ -21,12 +21,13 @@ const Main = () => {
             fontWeight: 'medium',
           }}
           gutterBottom
-          color={'secondary'}
-          align={'center'}
+          color={'secondary.dark'}
+          align={'left'}
+          variant={'h3'}
         >
-          Our work
+          Останні новини
         </Typography>
-        <Box
+        {/* <Box
           component={Typography}
           fontWeight={700}
           variant={'h3'}
@@ -45,7 +46,7 @@ const Main = () => {
           data-aos={'fade-up'}
         >
           From your new website idea, to design, development, launch and scale!
-        </Typography>
+        </Typography> */}
       </Box>
       <Grid container spacing={4}>
         {[
@@ -148,7 +149,9 @@ const Main = () => {
                 </Box>
                 <Box flexGrow={1} />
                 <Box component={CardActions} justifyContent={'flex-end'}>
-                  <Button size="small">Learn More</Button>
+                  <CustomLink link={'./'} color={'text.dark'}>
+                     Читати далі
+                  </CustomLink>
                 </Box>
               </Box>
             </Box>
@@ -159,4 +162,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default LatestNews;

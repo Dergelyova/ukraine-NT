@@ -3,18 +3,12 @@ import React from 'react';
 import Link from '@mui/material/Link';
 
 interface Props {
-  underlined: boolean;
   color?: string;
   link: string;
   children: React.ReactNode;
 }
 
-export const CustomLink: React.FC<Props> = ({
-  underlined,
-  color,
-  link,
-  children,
-}) => {
+export const CustomLink: React.FC<Props> = ({ color, link, children }) => {
   return (
     <Link
       href={link}
