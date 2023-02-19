@@ -72,7 +72,7 @@ const Routes = () => {
   return (
     <ReactRoutes>
       <Route
-        path="/home"
+        path="/"
         element={
           <WithLayout
             component={HomeView}
