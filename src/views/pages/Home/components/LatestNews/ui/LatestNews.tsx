@@ -8,6 +8,8 @@ import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import { CustomLink } from 'common';
+import { articles } from '../model';
+import { styles } from './styles';
 
 const LatestNews = () => {
   const theme = useTheme();
@@ -49,56 +51,7 @@ const LatestNews = () => {
         </Typography> */}
       </Box>
       <Grid container spacing={4}>
-        {[
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img10.jpg',
-            title: 'Curology',
-            subtitle:
-              'For healthy and beautiful skin, get skincare customized just for you from experts at Curology.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img7.jpg',
-            title: 'Hubble',
-            subtitle:
-              'The more affordable daily contact lens. Modify or cancel anytime.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img8.jpg',
-            title: 'Larq',
-            subtitle:
-              'LARQ Bottle Benefit Edition. 0. Lives will be saved with access. to clean water.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img6.jpg',
-            title: 'Curology',
-            subtitle:
-              'For healthy and beautiful skin, get skincare customized just for you from experts at Curology.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img9.jpg',
-            title: 'Hubble',
-            subtitle:
-              'The more affordable daily contact lens. Modify or cancel anytime.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img5.jpg',
-            title: 'Larq',
-            subtitle:
-              'LARQ Bottle Benefit Edition. 0. Lives will be saved with access. to clean water.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img11.jpg',
-            title: 'Curology',
-            subtitle:
-              'For healthy and beautiful skin, get skincare customized just for you from experts at Curology.',
-          },
-          {
-            media: 'https://assets.maccarianagency.com/backgrounds/img12.jpg',
-            title: 'Hubble',
-            subtitle:
-              'The more affordable daily contact lens. Modify or cancel anytime.',
-          },
-        ].map((item, i) => (
+        {articles.map((item, i) => (
           <Grid item xs={12} sm={6} md={3} key={i} data-aos={'fade-up'}>
             <Box
               component={'a'}
@@ -126,26 +79,35 @@ const LatestNews = () => {
                   image={item.media}
                   title={item.title}
                   sx={{
-                    height: 240,
+                    height: 190,
                   }}
                 />
                 <Box component={CardContent}>
                   <Box
                     component={Typography}
-                    variant={'h6'}
+                    variant={'overline'}
+                    color={'primary.main'}
                     gutterBottom
-                    fontWeight={500}
                     align={'left'}
+                  >
+                    {item.date}
+                  </Box>
+                  <Box
+                    component={Typography}
+                    variant={'h5'}
+                    gutterBottom
+                    align={'left'}
+                    sx={styles.title}
                   >
                     {item.title}
                   </Box>
-                  <Typography
+                  {/* <Typography
                     align={'left'}
                     variant={'body2'}
                     color="textSecondary"
                   >
                     {item.subtitle}
-                  </Typography>
+                  </Typography> */}
                 </Box>
                 <Box flexGrow={1} />
                 <Box component={CardActions} justifyContent={'flex-end'}>

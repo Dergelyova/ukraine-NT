@@ -35,9 +35,9 @@ export const TYPOGRAPHY: TypographyOptions = {
     fontSize: '22px',
   },
   h5: {
-    fontFamily: 'Gilroy-Light',
-    fontWeight: 600,
+    fontFamily: 'MacPawFixelDisplaySemiBold',
     fontSize: '16px',
+    lineHeight: '1.2',
   },
   h6: {
     fontFamily: 'MacPawFixelDisplaySemiBold',
@@ -77,12 +77,9 @@ export const TYPOGRAPHY: TypographyOptions = {
     textDecoration: 'underline',
   },
   overline: {
-    fontFamily: 'Gilroy-Light',
-    fontStyle: 'normal',
-    fontWeight: 600,
+    fontFamily: 'MacPawFixelDisplayMedium',
     fontSize: '10px',
 
     letterSpacing: '0.12em',
-    textTransform: 'uppercase',
   },
 };

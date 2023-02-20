@@ -1,4 +1,4 @@
-export { default as DemoPages } from './LatestNews';
+export { default as DemoPages } from './LatestNews/ui';
 export { default as Features } from './Projects';
 export { default as Footer } from './Support';
 export { default as Hero } from './Hero';

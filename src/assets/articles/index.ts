@@ -1,4 +1,11 @@
 export const recruitImage = require('./recruit-agent.jpeg');
 export const nelsonImage = require('./nelson.png');
-
+export const articleImage1 = require('./img1.png');
+export const articleImage2 = require('./img2.jpeg');
+export const articleImage3 = require('./img3.jpeg');
+export const articleImage4 = require('./img4.png');
+export const articleImage5 = require('./img5.jpeg');
+export const articleImage6 = require('./img6.jpeg');
+export const articleImage7 = require('./img7.jpeg');
+export const articleImage8 = require('./img8.jpeg');
 // export default { recruitImage, nelsonImage };

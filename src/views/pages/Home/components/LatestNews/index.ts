@@ -1,1 +1,1 @@
-export { default } from './LatestNews';
+export * from './ui';

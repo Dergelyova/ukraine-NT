@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import { Container } from '../../../common';
 import { Hero } from './components';
-import LatestNews from './components/LatestNews';
+import LatestNews from './components/LatestNews/ui';
 
 const Home = () => {
   const theme = useTheme();
