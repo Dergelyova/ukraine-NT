@@ -1,14 +1,21 @@
 {
   "files": {
     "main.css": "/ukraine-NT/static/css/main.a81e5259.css",
-    "main.js": "/ukraine-NT/static/js/main.aa570d99.js",
+    "main.js": "/ukraine-NT/static/js/main.1caec655.js",
     "static/js/27.647507d7.chunk.js": "/ukraine-NT/static/js/27.647507d7.chunk.js",
     "static/media/img1.png": "/ukraine-NT/static/media/img1.58f9f0816dbbd6f7c215.png",
     "static/media/nelson.png": "/ukraine-NT/static/media/nelson.1dcc56a22cc2495d0f63.png",
     "static/media/img4.png": "/ukraine-NT/static/media/img4.b2c077cb90cbf46e53d0.png",
+    "static/media/bg.png": "/ukraine-NT/static/media/bg.b1f4b5333a9fdaecebda.png",
     "static/media/img5.jpeg": "/ukraine-NT/static/media/img5.5a3aa6c3efd69f4a4f66.jpeg",
     "static/media/img3.jpeg": "/ukraine-NT/static/media/img3.e5829d3258fd2bf92671.jpeg",
     "static/media/img7.jpeg": "/ukraine-NT/static/media/img7.67509fcb57cf967eb357.jpeg",
+    "static/media/mask-group-3.png": "/ukraine-NT/static/media/mask-group-3.c0f40b0f3ea2af68a32d.png",
+    "static/media/mask-group-4.png": "/ukraine-NT/static/media/mask-group-4.ba0268531788e024f07e.png",
+    "static/media/mask-group.png": "/ukraine-NT/static/media/mask-group.b3ba00617e8b54d4657e.png",
+    "static/media/mask-group-2.png": "/ukraine-NT/static/media/mask-group-2.18bc54d39d058f629e01.png",
+    "static/media/mask-group-1.png": "/ukraine-NT/static/media/mask-group-1.18555e7f5cea887ed5c7.png",
+    "static/media/mask-group-5.png": "/ukraine-NT/static/media/mask-group-5.03afc042351e61c8d3a4.png",
     "static/media/img6.jpeg": "/ukraine-NT/static/media/img6.4acb305c5407b136cce8.jpeg",
     "static/media/img8.jpeg": "/ukraine-NT/static/media/img8.3b3219a8af336807cce4.jpeg",
     "static/media/recruit-agent.jpeg": "/ukraine-NT/static/media/recruit-agent.a439ace4e59872881a7d.jpeg",
@@ -20,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.a81e5259.css",
-    "static/js/main.aa570d99.js"
+    "static/js/main.1caec655.js"
   ]
 }
