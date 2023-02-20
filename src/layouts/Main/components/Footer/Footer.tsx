@@ -135,7 +135,7 @@ const Footer = () => (
             '& span': { color: 'primary.light' },
           }}
         >
-          Make Law <span>No Torture</span>
+          Make Law <span>Not Torture</span>
         </Typography>
       </Box>
     </Grid>

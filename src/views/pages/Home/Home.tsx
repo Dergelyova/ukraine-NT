@@ -7,6 +7,7 @@ import LatestNews from './components/LatestNews/ui';
 import Numbers from './components/Results/ui';
 import Projects from './components/Projects';
 import { bg } from 'assets/articles';
+import Videos from './components/Videos';
 
 const Home = () => {
   const theme = useTheme();
@@ -48,8 +49,14 @@ const Home = () => {
             <LatestNews />
           </Container>
         </Box>
+
         <Box position={'relative'}>
           <Projects />
+        </Box>
+        <Box position={'relative'}>
+          <Container position="relative" zIndex={2}>
+            <Videos />
+          </Container>
         </Box>
       </Box>
       {/* <Container>
