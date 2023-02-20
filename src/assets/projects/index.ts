@@ -1,0 +1,9 @@
+export const projectImage9 = require('./mask-group.png');
+export const projectImage1 = require('./mask-group-1.png');
+export const projectImage2 = require('./mask-group-2.png');
+export const projectImage3 = require('./mask-group-3.png');
+export const projectImage4 = require('./mask-group-4.png');
+export const projectImage5 = require('./mask-group-5.png');
+// export const projectImage6 = require('./mask-group6.png');
+// export const projectImage7 = require('./mask-group7.png');
+// export const projectImage8 = require('./mask-group8.png');
