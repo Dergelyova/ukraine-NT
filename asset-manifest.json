@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/ukraine-NT/static/css/main.a81e5259.css",
-    "main.js": "/ukraine-NT/static/js/main.8b29f84f.js",
-    "static/js/27.647507d7.chunk.js": "/ukraine-NT/static/js/27.647507d7.chunk.js",
-    "static/media/nelson.png": "/ukraine-NT/static/media/nelson.1dcc56a22cc2495d0f63.png",
-    "static/media/recruit-agent.jpeg": "/ukraine-NT/static/media/recruit-agent.a439ace4e59872881a7d.jpeg",
-    "static/media/slick.svg": "/ukraine-NT/static/media/slick.2630a3e3eab21c607e21.svg",
-    "index.html": "/ukraine-NT/index.html",
-    "static/media/slick.eot": "/ukraine-NT/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/ukraine-NT/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/ukraine-NT/static/media/slick.295183786cd8a1389865.woff"
+    "main.css": "/static/css/main.5f04cf32.css",
+    "main.js": "/static/js/main.7c1e3bdd.js",
+    "static/js/27.647507d7.chunk.js": "/static/js/27.647507d7.chunk.js",
+    "static/media/img1.png": "/static/media/img1.58f9f0816dbbd6f7c215.png",
+    "static/media/nelson.png": "/static/media/nelson.1dcc56a22cc2495d0f63.png",
+    "static/media/img4.png": "/static/media/img4.b2c077cb90cbf46e53d0.png",
+    "static/media/img5.jpeg": "/static/media/img5.5a3aa6c3efd69f4a4f66.jpeg",
+    "static/media/img3.jpeg": "/static/media/img3.e5829d3258fd2bf92671.jpeg",
+    "static/media/img7.jpeg": "/static/media/img7.67509fcb57cf967eb357.jpeg",
+    "static/media/img6.jpeg": "/static/media/img6.4acb305c5407b136cce8.jpeg",
+    "static/media/img8.jpeg": "/static/media/img8.3b3219a8af336807cce4.jpeg",
+    "static/media/recruit-agent.jpeg": "/static/media/recruit-agent.a439ace4e59872881a7d.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "index.html": "/index.html",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff"
   },
   "entrypoints": [
-    "static/css/main.a81e5259.css",
-    "static/js/main.8b29f84f.js"
+    "static/css/main.5f04cf32.css",
+    "static/js/main.7c1e3bdd.js"
   ]
 }
