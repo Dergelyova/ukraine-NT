@@ -67,20 +67,36 @@ import {
 } from './views/docs';
 
 import { Home as HomeView } from './views/pages';
+import ComingSoon from 'views/pages/ComingSoon';
 
 const Routes = () => {
   return (
     <ReactRoutes>
       <Route
         path="/"
-        element={
-          <WithLayout
-            component={HomeView}
-            layout={MainLayout}
-            // {...matchProps}
-          />
-        }
+        element={<WithLayout component={HomeView} layout={MainLayout} />}
       />
+      <Route
+        path="/about"
+        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+      />
+      <Route
+        path="/projects"
+        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+      />
+      <Route
+        path="/news"
+        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+      />
+      <Route
+        path="/library"
+        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+      />
+      <Route
+        path="/contacts"
+        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+      />
+
       {/* <Route
         exact
         path="/landing-advertisement"

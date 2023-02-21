@@ -125,7 +125,7 @@ const Gallery = () => {
                 component={Card}
                 width={'100%'}
                 height={'100%'}
-                borderRadius={3}
+                // borderRadius={3}
                 sx={{
                   cursor: 'pointer',
                 }}
@@ -134,7 +134,7 @@ const Gallery = () => {
                   image={item.src}
                   title={item.title}
                   sx={{
-                    height: '340px',
+                    height: '370px',
                   }}
                 />
               </Box>
