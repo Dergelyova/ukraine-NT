@@ -8,6 +8,7 @@ import Numbers from './components/Results/ui';
 import Projects from './components/Projects';
 import { bg } from 'assets/articles';
 import Videos from './components/Videos';
+import Support from './components/Support';
 
 const Home = () => {
   const theme = useTheme();
@@ -57,6 +58,9 @@ const Home = () => {
           <Container position="relative" zIndex={2}>
             <Videos />
           </Container>
+        </Box>
+        <Box position={'relative'} paddingY={6}>
+          <Support />
         </Box>
       </Box>
       {/* <Container>

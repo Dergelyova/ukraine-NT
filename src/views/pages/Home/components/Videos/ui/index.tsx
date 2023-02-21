@@ -26,9 +26,7 @@ const Videos = () => {
         >
           Відео
         </Typography> */}
-        <Typography fontWeight={700} variant={'h3'}>
-          Відео
-        </Typography>
+        <Typography variant={'h3'}>Відео</Typography>
       </Box>
       <Grid container spacing={6}>
         {[

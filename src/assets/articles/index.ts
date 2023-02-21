@@ -9,4 +9,5 @@ export const articleImage6 = require('./img6.jpeg');
 export const articleImage7 = require('./img7.jpeg');
 export const articleImage8 = require('./img8.jpeg');
 export const bg = require('./bg.png');
+export const supportBg = require('./support-bg.png');
 // export default { recruitImage, nelsonImage };

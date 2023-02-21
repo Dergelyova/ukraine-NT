@@ -25,7 +25,6 @@ const Numbers = () => {
       <Box marginBottom={4}>
         <Typography
           sx={{
-            textTransform: 'uppercase',
             fontWeight: 'medium',
           }}
           variant={'h3'}
