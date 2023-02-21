@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ukraine-NT/static/css/main.a81e5259.css",
-    "main.js": "/ukraine-NT/static/js/main.fb3c8b42.js",
+    "main.js": "/ukraine-NT/static/js/main.84e44176.js",
     "static/js/27.647507d7.chunk.js": "/ukraine-NT/static/js/27.647507d7.chunk.js",
     "static/media/img1.png": "/ukraine-NT/static/media/img1.58f9f0816dbbd6f7c215.png",
     "static/media/support-bg.png": "/ukraine-NT/static/media/support-bg.78d60b1514602d671762.png",
@@ -21,13 +21,13 @@
     "static/media/img8.jpeg": "/ukraine-NT/static/media/img8.3b3219a8af336807cce4.jpeg",
     "static/media/recruit-agent.jpeg": "/ukraine-NT/static/media/recruit-agent.a439ace4e59872881a7d.jpeg",
     "static/media/slick.svg": "/ukraine-NT/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/ukraine-NT/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "index.html": "/ukraine-NT/index.html",
+    "static/media/slick.eot": "/ukraine-NT/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ukraine-NT/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ukraine-NT/static/media/slick.295183786cd8a1389865.woff"
   },
   "entrypoints": [
     "static/css/main.a81e5259.css",
-    "static/js/main.fb3c8b42.js"
+    "static/js/main.84e44176.js"
   ]
 }
