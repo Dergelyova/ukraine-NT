@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes as ReactRoutes, Route } from 'react-router-dom';
+import { Routes as ReactRoutes, Route, HashRouter } from 'react-router-dom';
 import WithLayout from './WithLayout';
 // Available layouts
 import {
@@ -79,7 +79,7 @@ const Routes = () => {
         element={<WithLayout component={HomeView} layout={MainLayout} />}
       />
       <Route
-        path="/about"
+        path={`/about`}
         element={<WithLayout component={ComingSoon} layout={MainLayout} />}
       />
       <Route

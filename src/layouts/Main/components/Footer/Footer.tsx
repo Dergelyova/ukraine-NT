@@ -25,7 +25,7 @@ const Footer = () => (
         <Box
           display={'flex'}
           component="a"
-          href="/"
+          href={`${process.env.PUBLIC_URL}/`}
           title="webbee"
           height={90}
           width={'auto'}
@@ -44,7 +44,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/about`}
               variant="subtitle1"
               color={'#fff'}
             >
@@ -55,7 +55,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/about`}
               variant="subtitle1"
               color={'#fff'}
             >
@@ -66,7 +66,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/about`}
               variant="subtitle1"
               color={'#fff'}
             >
@@ -77,7 +77,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/about`}
               variant="subtitle1"
               color={'#fff'}
             >
@@ -88,7 +88,7 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/contacts`}
               variant="subtitle1"
               color={'#fff'}
             >

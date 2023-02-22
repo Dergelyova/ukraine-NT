@@ -59,7 +59,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/projects"
+              href={`${process.env.PUBLIC_URL}/projects`}
               color="textPrimary"
               variant="subtitle1"
             >
@@ -70,7 +70,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/news"
+              href={`${process.env.PUBLIC_URL}/news`}
               color="textPrimary"
               variant="subtitle1"
             >
@@ -81,7 +81,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/library"
+              href={`${process.env.PUBLIC_URL}/library`}
               color="textPrimary"
               variant="subtitle1"
             >
@@ -105,7 +105,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
               color="primary"
               component="a"
               target="blank"
-              href="https://material-ui.com/store/items/webbee-landing-page/"
+              href={`${process.env.PUBLIC_URL}/projects`}
               size="large"
             >
               ПІДТРИМАТИ
