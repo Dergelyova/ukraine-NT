@@ -128,7 +128,12 @@ const Topbar = ({
         </Box>
         <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
           <Box marginRight={2}>
-            <Link underline="none" component="a" href="/" color="textPrimary">
+            <Link
+              underline="none"
+              component="a"
+              href={`${process.env.PUBLIC_URL}/`}
+              color="textPrimary"
+            >
               Home
             </Link>
           </Box>

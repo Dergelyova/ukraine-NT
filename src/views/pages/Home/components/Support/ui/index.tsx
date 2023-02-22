@@ -39,6 +39,7 @@ const Support = () => {
           display: 'flex',
           flexDirection: 'column',
         }}
+        // data-aos={'fade-right'}
       >
         <Typography variant="h6" sx={{ color: 'primary.dark' }}>
           З початком війни наша Організація займалась та продовжує займатись

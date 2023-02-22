@@ -24,18 +24,18 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
       width={'100%'}
     >
       <Box display={'flex'} alignItems={'center'}>
-        {isXs && (
+        {/* {isXs && (
           <Box marginRight={{ xs: 1, sm: 2 }}>
             <IconButton onClick={onSidebarOpen} aria-label="Menu">
               <MenuIcon />
             </IconButton>
           </Box>
-        )}
+        )} */}
         <Box
           display={'flex'}
           alignItems="baseline"
           component="a"
-          href="/"
+          href={`${process.env.PUBLIC_URL}/`}
           title="ukraine no torture"
           height={{ xs: 40, md: 60 }}
         >
@@ -48,7 +48,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/about"
+              href={`${process.env.PUBLIC_URL}/about`}
               color="textPrimary"
               variant="subtitle1"
             >
@@ -92,7 +92,7 @@ const Topbar: React.FC<Props> = ({ onSidebarOpen }) => {
             <Link
               underline="none"
               component="a"
-              href="/contacts"
+              href={`${process.env.PUBLIC_URL}/contacts`}
               color="textPrimary"
               variant="subtitle1"
             >

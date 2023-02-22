@@ -70,6 +70,7 @@ export const ActiveCard: React.FC<Props> = ({ article, i }) => {
               color: '#000',
               '&:hover': { color: '#fff', backgroundColor: 'transparent' },
             }}
+            href={`${process.env.PUBLIC_URL}/article`}
           >
             Читати далі
           </Button>

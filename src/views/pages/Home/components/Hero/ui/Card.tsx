@@ -51,7 +51,7 @@ export const Card: React.FC<Props> = ({ article, i }) => {
         </Box>
         <Box flexGrow={1} />
         <Box component={CardActions} justifyContent={'flex-start'}>
-          <CustomLink link={'./'} color={'#000'}>
+          <CustomLink link={`${process.env.PUBLIC_URL}/article`} color={'#000'}>
             Читати далі
           </CustomLink>
         </Box>

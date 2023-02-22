@@ -111,7 +111,10 @@ const LatestNews = () => {
                 </Box>
                 <Box flexGrow={1} />
                 <Box component={CardActions} justifyContent={'flex-end'}>
-                  <CustomLink link={'./'} color={'text.dark'}>
+                  <CustomLink
+                    link={`${process.env.PUBLIC_URL}/article`}
+                    color={'text.dark'}
+                  >
                      Читати далі
                   </CustomLink>
                 </Box>

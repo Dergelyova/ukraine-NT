@@ -68,6 +68,8 @@ import {
 
 import { Home as HomeView } from './views/pages';
 import ComingSoon from 'views/pages/ComingSoon';
+import Contact from 'views/pages/Contacts/ui';
+import Article from 'views/pages/Article';
 
 const Routes = () => {
   return (
@@ -94,7 +96,11 @@ const Routes = () => {
       />
       <Route
         path="/contacts"
-        element={<WithLayout component={ComingSoon} layout={MainLayout} />}
+        element={<WithLayout component={Contact} layout={MainLayout} />}
+      />
+      <Route
+        path="/article"
+        element={<WithLayout component={Article} layout={MainLayout} />}
       />
 
       {/* <Route

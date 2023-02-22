@@ -2,6 +2,10 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Logo from 'svg/logos/Logo';
@@ -90,6 +94,29 @@ const Footer = () => (
             >
               Контакти
             </Link>
+          </Box>
+          <Box marginTop={1} display={'flex'} justifyContent={'center'}>
+            <IconButton
+              color="inherit"
+              aria-label="facebook"
+              href="https://www.facebook.com/ukraine.without.torture"
+            >
+              <FacebookIcon />
+            </IconButton>
+            <IconButton
+              color="inherit"
+              aria-label="twitter"
+              href="https://twitter.com/Ukr_noTorture?fbclid=IwAR2rqady3mFyaxcRNgWfM5w6SC0DXzz5OJ8xt1XaPLJrBvJ2sKxeAWRmRM8"
+            >
+              <TwitterIcon />
+            </IconButton>
+            <IconButton
+              color="inherit"
+              aria-label="instagram"
+              href="https://www.instagram.com/ukraine_without_torture/?fbclid=IwAR1XR44O3pQN225faYDEGtQyzzkJvVgQnAhyySsA_UIeSX8_0ycUmsuVGpY"
+            >
+              <InstagramIcon />
+            </IconButton>
           </Box>
         </Box>
       </Box>
